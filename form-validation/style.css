@@ -1,0 +1,33 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.bgimage {
+    min-height: 680px;
+    background-image: url(https://images.unsplash.com/photo-1506744038136-46273834b3fb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjM3Njd9&auto=format&fit=crop&w=1350&q=80);
+    position: relative;
+    background-size: cover;
+    background-color: gray;
+    background-blend-mode: screen;
+}
+
+form {
+    border: 5px dotted gray;
+    position: absolute;
+    background-color: white;
+    max-width: 330px;
+    padding: 16px;
+    margin: 20px;
+    right: 0;
+}
+
+.submit-button {
+    border: none;
+    min-height: 30px;
+    min-width: 160px;
+}
+
+a {
+    text-decoration: none;
+    color: palevioletred;
+}
